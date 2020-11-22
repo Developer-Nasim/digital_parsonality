@@ -1,0 +1,168 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .attribute-area .attribute-feture li { 
+        margin: 0 6px; 
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .traits-area .result-btns a { 
+        width: 320px; 
+    }
+    .attribute-feture.right-attribute {
+        margin-top: 30px;
+    }
+    .footer-area .footer-wiget ul li a.first-child { 
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+    .footer-area .footer-wiget ul li a { 
+        font-size: 13px;
+    }
+
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .attribute-feture.right-attribute {
+        margin-top: 30px;
+    }
+    .enargy-traits.traits-box {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .footer-area { 
+        height: 150px; 
+    }
+    .footer-area {
+        height: 150px;
+        text-align: center;
+    }
+    .footer-area .footer-wiget ul li a {
+        font-size: 14px;
+    }
+    .attribute-area .attribute-title svg {
+        width: 260px;
+    }
+    .traits-title svg {
+        width: 180px;
+    }
+    .traits-area .result-btns a { 
+        width: 100%; 
+        font-size: 13px; 
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .traits-area .result-btns {
+        margin-top: 0;
+    }
+    .traits-title {
+        padding-top: 40px;
+    }
+    .hero-area .hero-wrepper h5 {
+        font-size: 22px; 
+    }
+    .share-result-area {
+        padding: 50px 0; 
+    }
+    .share-result-area .result-wrepper .share-wrepper .share-progress {
+        padding: 0 30px;
+    }
+    .result-area {
+        padding-top: 0;
+    }
+    .result-text svg {
+        width: 75%;
+    }
+
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+  
+.attribute-area .attribute-title svg {
+    width: 400px;
+}
+.traits-area .result-btns a {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.01);
+    color: #fff;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 178px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid #4CC2F1;
+    color: #4CC2F1;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+}
+.traits-area .result-btns {
+    margin-top: -98px;
+}
+.attribute-area .attribute-feture li {
+    display: inline-block;
+    margin: 0px 5px;
+    padding-bottom: 40px;
+    color: #979797;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+}
+.attribute-area .attribute-feture li span {
+    display: block;
+    background: #F1F7F8;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.attribute-area .attribute-feture li span svg {
+    width: 22px;
+}
+.traits-area .result-btns {
+    margin-top: -100px;
+}
+.traits-title {
+    padding-top: 0;
+}
+.share-result-area .result-wrepper .share-wrepper .share-progress {
+    padding: 0 50px;
+  }
+  
+
+
+
+
+
+
+
+
+}
